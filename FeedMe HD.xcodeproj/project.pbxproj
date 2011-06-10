@@ -7,32 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		360E5AF813A124B80098CD01 /* FMInjector.m in Sources */ = {isa = PBXBuildFile; fileRef = 360E5AF713A124B70098CD01 /* FMInjector.m */; };
+		360E5AFC13A126850098CD01 /* AppScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 360E5AFB13A126850098CD01 /* AppScope.m */; };
+		360E5B0713A129310098CD01 /* FMUIApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 360E5B0613A129310098CD01 /* FMUIApplication.m */; };
 		36AC451313A121EB0054B8E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AC451213A121EB0054B8E6 /* UIKit.framework */; };
 		36AC451513A121EB0054B8E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AC451413A121EB0054B8E6 /* Foundation.framework */; };
 		36AC451713A121EB0054B8E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AC451613A121EB0054B8E6 /* CoreGraphics.framework */; };
 		36AC451D13A121EB0054B8E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36AC451B13A121EB0054B8E6 /* InfoPlist.strings */; };
 		36AC452013A121EB0054B8E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AC451F13A121EB0054B8E6 /* main.m */; };
-		36AC452313A121EB0054B8E6 /* FeedMe_HDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AC452213A121EB0054B8E6 /* FeedMe_HDAppDelegate.m */; };
-		36AC452613A121EB0054B8E6 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36AC452413A121EB0054B8E6 /* MainWindow.xib */; };
-		36AC452913A121EB0054B8E6 /* FeedMe_HDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AC452813A121EB0054B8E6 /* FeedMe_HDViewController.m */; };
-		36AC452C13A121EB0054B8E6 /* FeedMe_HDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36AC452A13A121EB0054B8E6 /* FeedMe_HDViewController.xib */; };
+		36AC452313A121EB0054B8E6 /* FMDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AC452213A121EB0054B8E6 /* FMDelegate.m */; };
+		36AC452913A121EB0054B8E6 /* FeedMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AC452813A121EB0054B8E6 /* FeedMeViewController.m */; };
+		36AC452C13A121EB0054B8E6 /* FeedMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36AC452A13A121EB0054B8E6 /* FeedMeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		360E5AF613A124B70098CD01 /* FMInjector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMInjector.h; sourceTree = "<group>"; };
+		360E5AF713A124B70098CD01 /* FMInjector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMInjector.m; sourceTree = "<group>"; };
+		360E5AFA13A126850098CD01 /* AppScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppScope.h; sourceTree = "<group>"; };
+		360E5AFB13A126850098CD01 /* AppScope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppScope.m; sourceTree = "<group>"; };
+		360E5B0513A129310098CD01 /* FMUIApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMUIApplication.h; sourceTree = "<group>"; };
+		360E5B0613A129310098CD01 /* FMUIApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMUIApplication.m; sourceTree = "<group>"; };
+		360E5B0813A12A620098CD01 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		36AC450E13A121EB0054B8E6 /* FeedMe HD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FeedMe HD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36AC451213A121EB0054B8E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		36AC451413A121EB0054B8E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		36AC451613A121EB0054B8E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		36AC451A13A121EB0054B8E6 /* FeedMe HD-Info.plist */ = {isa = PBXFileReference; path = "FeedMe HD-Info.plist"; sourceTree = "<group>"; };
+		36AC451A13A121EB0054B8E6 /* FeedMe HD-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FeedMe HD-Info.plist"; sourceTree = "<group>"; };
 		36AC451C13A121EB0054B8E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		36AC451E13A121EB0054B8E6 /* FeedMe HD-Prefix.pch */ = {isa = PBXFileReference; path = "FeedMe HD-Prefix.pch"; sourceTree = "<group>"; };
+		36AC451E13A121EB0054B8E6 /* FeedMe HD-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FeedMe HD-Prefix.pch"; sourceTree = "<group>"; };
 		36AC451F13A121EB0054B8E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		36AC452113A121EB0054B8E6 /* FeedMe_HDAppDelegate.h */ = {isa = PBXFileReference; path = FeedMe_HDAppDelegate.h; sourceTree = "<group>"; };
-		36AC452213A121EB0054B8E6 /* FeedMe_HDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedMe_HDAppDelegate.m; sourceTree = "<group>"; };
-		36AC452513A121EB0054B8E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		36AC452713A121EB0054B8E6 /* FeedMe_HDViewController.h */ = {isa = PBXFileReference; path = FeedMe_HDViewController.h; sourceTree = "<group>"; };
-		36AC452813A121EB0054B8E6 /* FeedMe_HDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedMe_HDViewController.m; sourceTree = "<group>"; };
-		36AC452B13A121EB0054B8E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FeedMe_HDViewController.xib; sourceTree = "<group>"; };
+		36AC452113A121EB0054B8E6 /* FMDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDelegate.h; sourceTree = "<group>"; };
+		36AC452213A121EB0054B8E6 /* FMDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDelegate.m; sourceTree = "<group>"; };
+		36AC452713A121EB0054B8E6 /* FeedMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedMeViewController.h; sourceTree = "<group>"; };
+		36AC452813A121EB0054B8E6 /* FeedMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedMeViewController.m; sourceTree = "<group>"; };
+		36AC452B13A121EB0054B8E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FeedMeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +57,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		360E5AF913A124C10098CD01 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				36AC452113A121EB0054B8E6 /* FMDelegate.h */,
+				36AC452213A121EB0054B8E6 /* FMDelegate.m */,
+				360E5AF613A124B70098CD01 /* FMInjector.h */,
+				360E5AF713A124B70098CD01 /* FMInjector.m */,
+				360E5AFA13A126850098CD01 /* AppScope.h */,
+				360E5AFB13A126850098CD01 /* AppScope.m */,
+				360E5B0513A129310098CD01 /* FMUIApplication.h */,
+				360E5B0613A129310098CD01 /* FMUIApplication.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
 		36AC450313A121EB0054B8E6 = {
 			isa = PBXGroup;
 			children = (
@@ -79,12 +102,11 @@
 		36AC451813A121EB0054B8E6 /* FeedMe HD */ = {
 			isa = PBXGroup;
 			children = (
-				36AC452113A121EB0054B8E6 /* FeedMe_HDAppDelegate.h */,
-				36AC452213A121EB0054B8E6 /* FeedMe_HDAppDelegate.m */,
-				36AC452413A121EB0054B8E6 /* MainWindow.xib */,
-				36AC452713A121EB0054B8E6 /* FeedMe_HDViewController.h */,
-				36AC452813A121EB0054B8E6 /* FeedMe_HDViewController.m */,
-				36AC452A13A121EB0054B8E6 /* FeedMe_HDViewController.xib */,
+				360E5B0813A12A620098CD01 /* Constants.h */,
+				360E5AF913A124C10098CD01 /* Main */,
+				36AC452713A121EB0054B8E6 /* FeedMeViewController.h */,
+				36AC452813A121EB0054B8E6 /* FeedMeViewController.m */,
+				36AC452A13A121EB0054B8E6 /* FeedMeViewController.xib */,
 				36AC451913A121EB0054B8E6 /* Supporting Files */,
 			);
 			path = "FeedMe HD";
@@ -152,8 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36AC451D13A121EB0054B8E6 /* InfoPlist.strings in Resources */,
-				36AC452613A121EB0054B8E6 /* MainWindow.xib in Resources */,
-				36AC452C13A121EB0054B8E6 /* FeedMe_HDViewController.xib in Resources */,
+				36AC452C13A121EB0054B8E6 /* FeedMeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,8 +186,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				36AC452013A121EB0054B8E6 /* main.m in Sources */,
-				36AC452313A121EB0054B8E6 /* FeedMe_HDAppDelegate.m in Sources */,
-				36AC452913A121EB0054B8E6 /* FeedMe_HDViewController.m in Sources */,
+				36AC452313A121EB0054B8E6 /* FMDelegate.m in Sources */,
+				36AC452913A121EB0054B8E6 /* FeedMeViewController.m in Sources */,
+				360E5AF813A124B80098CD01 /* FMInjector.m in Sources */,
+				360E5AFC13A126850098CD01 /* AppScope.m in Sources */,
+				360E5B0713A129310098CD01 /* FMUIApplication.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,20 +205,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		36AC452413A121EB0054B8E6 /* MainWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				36AC452513A121EB0054B8E6 /* en */,
-			);
-			name = MainWindow.xib;
-			sourceTree = "<group>";
-		};
-		36AC452A13A121EB0054B8E6 /* FeedMe_HDViewController.xib */ = {
+		36AC452A13A121EB0054B8E6 /* FeedMeViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				36AC452B13A121EB0054B8E6 /* en */,
 			);
-			name = FeedMe_HDViewController.xib;
+			name = FeedMeViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -243,6 +259,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FeedMe HD/FeedMe HD-Prefix.pch";
 				INFOPLIST_FILE = "FeedMe HD/FeedMe HD-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -256,6 +273,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FeedMe HD/FeedMe HD-Prefix.pch";
 				INFOPLIST_FILE = "FeedMe HD/FeedMe HD-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -281,6 +299,7 @@
 				36AC453113A121EB0054B8E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
